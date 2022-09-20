@@ -1,8 +1,9 @@
 import React from 'react'
+import Box from 'theme/Default/Box'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <Box>Footer</Box>
   )
 }
 

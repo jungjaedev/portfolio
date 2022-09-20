@@ -1,4 +1,4 @@
-export const ColorTheme = {
+export const colorTheme = {
   red: "#E50D06",
   midgrey: '#979797',
   lightgrey: '#EDEDED',

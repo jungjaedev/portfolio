@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Box from 'theme/Default/Box';
+import Navbar from 'Components/Header/Navbar';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <Box padding="1.5rem 0">
+      <Navbar />
+    </Box>
   )
 }
+
 
 export default Header

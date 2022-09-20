@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Box from 'theme/Default/Box'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <Box>Body</Box>
   )
 }
 
