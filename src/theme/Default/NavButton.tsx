@@ -35,7 +35,7 @@ const Wrapper = styled.div`
 
   &:hover {
     cursor: pointer;
-    color: ${({ theme }) => theme.yellow};
+    color: ${({ theme }) => theme.red};
   }
 `
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import Box from 'theme/Default/Box';
 import NavButton from 'theme/Default/NavButton';
 

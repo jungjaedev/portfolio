@@ -1,11 +1,13 @@
-import Archiving from 'Components/Archiving.tsx/Archiving';
 import React from 'react';
 import Box from 'theme/Default/Box'
+import Archiving from 'Components/Archiving/Archiving';
+import Skills from 'Components/Skills/Skills';
 
 const Body = () => {
   return (
-    <Box>
+    <Box flexDirection="column">
       <Archiving />
+      <Skills />
     </Box>
   )
 }
