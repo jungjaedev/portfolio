@@ -13,5 +13,8 @@ declare module "styled-components" {
     yellow: string,
     blue: string,
     darkgrey: string,
+    borderRadius: string,
   }
 }
+
+

@@ -9,7 +9,7 @@ const NavButtons = () => {
   }
   return (
     <Box>
-      <NavButton onClick={()=>handleNavButton("aboutme")}>ABOUT ME</NavButton>
+      <NavButton onClick={()=>handleNavButton("aboutme")}>ARCHIVING</NavButton>
       <NavButton onClick={()=>handleNavButton("skills")}>SKILLS</NavButton>
       <NavButton onClick={()=>handleNavButton("projects")}>PROJECTS</NavButton>
       <NavButton onClick={()=>handleNavButton("contact")}>CONTACT</NavButton>

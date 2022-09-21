@@ -1,4 +1,4 @@
-export const colorTheme = {
+export const theme = {
   red: "#E50D06",
   midgrey: '#979797',
   lightgrey: '#EDEDED',
@@ -11,4 +11,5 @@ export const colorTheme = {
   yellow: '#F1DC92',
   blue: '#015BEA',
   darkgrey: '#333333',
+  borderRadius: '1rem'
 };
