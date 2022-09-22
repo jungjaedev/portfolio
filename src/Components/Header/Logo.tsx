@@ -8,8 +8,8 @@ const Logo = () => {
   }
   return (
     <Box>
-      <NavButton onClick={handleLogoButtonClick} fontWeight="700" fontSize="2.5rem">
-        JaeWon's Portfolio
+      <NavButton textAlign="left" onClick={handleLogoButtonClick} fontWeight="700" fontSize="2.5rem">
+        Jaewon Jung
       </NavButton>
     </Box>
   )

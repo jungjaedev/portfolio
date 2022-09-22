@@ -4,7 +4,7 @@ import Navbar from 'Components/Header/Navbar';
 
 const Header = () => {
   return (
-    <Box padding="1.5rem 0">
+    <Box justifyContent="center" padding="1.5rem 0">
       <Navbar />
     </Box>
   )

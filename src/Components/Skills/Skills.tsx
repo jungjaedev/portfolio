@@ -20,7 +20,7 @@ const Skills = () => {
 const List = styled.div`
   display: flex;
   justify-content: center;
-  max-width: 1200%;
+  max-width: 1200px;
   display: flex;
 `
 

@@ -6,12 +6,14 @@ interface NavButtonProps {
   fontSize?: string;
   fontWeight?: string;
   onClick?: () => void;
+  textAlign?: 'start' | 'end' | 'left' | 'right' | 'center' | 'justify' | 'match-parent';
 }
 
 const NavButton = ({ 
   children, 
   fontSize,
   fontWeight,
+  textAlign,
   onClick
 } : NavButtonProps) => {
   return (
@@ -19,7 +21,8 @@ const NavButton = ({
     onClick={onClick}
     style={{
       fontSize,
-      fontWeight
+      fontWeight,
+      textAlign
     }}>
       { children }
     </Wrapper>

@@ -3,12 +3,9 @@ import { skillsList } from 'content/skills';
 import ItemBox from 'theme/Default/ItemBox';
 import styled from 'styled-components';
 import TitleText from 'theme/Default/TitleText';
+import { typeProps } from '../../types/common';
 
-interface ItemProps {
-  type : string;
-}
-
-const SkillsItem = ({type} : ItemProps) => {
+const SkillsItem = ({type} : typeProps) => {
   const skillsImageList = skillsList[type].imageList.map((item, idx)=> {
     return <Image key={idx} src={item} />
   })

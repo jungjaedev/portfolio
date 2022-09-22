@@ -5,7 +5,7 @@ import NavButtons from './NavButtons';
 
 const Navbar = () => {
   return (
-    <Box justifyContent="space-between" alignItems="center">
+    <Box height="3rem" maxWidth="1200px" justifyContent="space-between" alignItems="center">
       <Logo />
       <NavButtons />
     </Box>
