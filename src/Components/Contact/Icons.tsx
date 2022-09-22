@@ -4,15 +4,22 @@ import { archivingList } from 'content/archiving';
 
 const Icons = () => {
   const handleClick = (type: string) => {
-    window.open(archivingList[type].linkTo)
+    if(type === 'Kakao') {
+      window.open('https://open.kakao.com/o/gHsXFgDe')
+    } else {
+      window.open(archivingList[type].linkTo)
+    }
   }
   return (
     <div>
       <Image onClick={() => handleClick("Github")} src={require('assets/github.png')}></Image>
       <Image onClick={() => handleClick("Velog")} src={require('assets/velog.png')}></Image>
+      <Image onClick={() => handleClick("Kakao")} src={require('assets/kakao.png')}></Image>
     </div>
   )
 }
+
+// https://open.kakao.com/o/gHsXFgDe
 
 const Image = styled.img`
   width: 3rem;
