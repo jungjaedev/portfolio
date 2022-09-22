@@ -2,7 +2,7 @@ import React from 'react'
 
 const Copyright = () => {
   return (
-    <div>Copyright</div>
+    <div>© 2022. Jung Jae Won. All rights reserved.</div>
   )
 }
 

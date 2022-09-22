@@ -1,10 +1,14 @@
 import React from 'react'
-import styled from 'styled-components';
 import Box from 'theme/Default/Box'
+import Icons from './Icons'
+import Copyright from './Copyright';
 
 const Contact = () => {
   return (
-    <Box height="8rem" flexDirection='column' justifyContent="center" alignItems="center" backgroundColor="#333333">Contact</Box>
+    <Box height="8rem" flexDirection='column' justifyContent="center" alignItems="center">
+      <Icons />
+      <Copyright />
+    </Box>
   )
 }
 
