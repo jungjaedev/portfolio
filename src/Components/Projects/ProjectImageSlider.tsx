@@ -7,13 +7,11 @@ interface ChildProps {
   currentProject: ProjectsListProps;
 }
 
-
 const ProjectImageSlider = ({currentProject}: ChildProps) => {
   const [currentImage, setCurrentImage] = useState(0);
   const slideRef = useRef<any>(null);
   const imageNum = projectsList["Emotipop"].imageList.length;
   
-
   const nextSlide = () => {
     if (currentImage >= imageNum - 1) {
       setCurrentImage(0);

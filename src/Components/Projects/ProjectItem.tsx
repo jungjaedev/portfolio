@@ -24,7 +24,6 @@ const ProjectItem = ({type}: typeProps) => {
 const ProjcetContent = styled.div`
   display: flex;
   justify-content: space-evenly;
-  /* text-align: center; */
 `
 
 const ProjectHeader = styled.div`

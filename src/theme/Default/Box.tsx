@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, RefObject } from 'react';
 import styled from 'styled-components';
 
 interface BoxProps { 
@@ -12,6 +12,7 @@ interface BoxProps {
   alignItems?: string;
   backgroundColor?: string;
   padding?: string;
+  ref?: RefObject<HTMLImageElement>;
 }
 
 const Box = ({ 
@@ -24,10 +25,12 @@ const Box = ({
   margin,
   alignItems,
   backgroundColor,
-  padding
+  padding,
+  ref,
 } : BoxProps) => {
   return (
     <Wrapper 
+    ref={ref}
     style={{
       width, 
       height, 

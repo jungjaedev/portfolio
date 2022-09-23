@@ -1,12 +1,18 @@
-import React from 'react';
+import useScrollTo from 'hooks/useScrollTo';
+import React, { RefObject, useRef } from 'react';
 import styled from 'styled-components';
 import BodyBox from 'theme/Default/BodyBox'
 import TitleText from 'theme/Default/TitleText'
 import SkillsItem from './SkillsItem';
 
-const Skills = () => {
+interface SkillsProps {
+  ref?: RefObject<HTMLImageElement>;
+}
+
+const Skills = ({ref} : SkillsProps) => {
+
   return (
-    <BodyBox backgroundColor="#5D95BB">
+    <BodyBox ref={ref} backgroundColor="#5D95BB">
       <TitleText color="white">Skills</TitleText>
       <List>
         <SkillsItem type="Frontend" />
