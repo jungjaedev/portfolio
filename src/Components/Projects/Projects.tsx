@@ -6,7 +6,7 @@ import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <BodyBox backgroundColor="#EDEDED">
+    <BodyBox backgroundColor="#81B622">
       <TitleText color="white">Projects</TitleText>
       <List>
         <ProjectItem type="Emotipop" />
