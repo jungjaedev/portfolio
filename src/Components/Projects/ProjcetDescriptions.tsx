@@ -10,7 +10,7 @@ interface ChildProps {
 const ProjcetDescriptions = ({currentProject}: ChildProps) => {
   return (
     <Wrapper>
-      <Description>{currentProject.description}</Description>
+      <Description dangerouslySetInnerHTML={{__html: currentProject.description}}></Description>
       <Line />
       <DescriptionDetail type="주요 기능" content={currentProject.function} />
       <DescriptionDetail type="Stacks" content={currentProject.stack} />

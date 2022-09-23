@@ -3,14 +3,21 @@ import styled from 'styled-components';
 
 interface ChildProps {
   type: string;
-  content: string;
+  content?: string;
+  onClick?: () => void;
 }
 
 const DescriptionDetail = ({type, content} : ChildProps) => {
+  const handleClick = () => {
+    if(type === "URL" || type === "Github" ){
+      window.open(content);
+    }
+  }
+
   return (
     <Wrapper>
       <DetailTitle>✔️ {type}</DetailTitle>
-      <DetailContent>{content}</DetailContent>
+      <DetailContent onClick={handleClick} type={type}>{content}</DetailContent>
     </Wrapper>
   )
 }
@@ -24,8 +31,11 @@ const DetailTitle = styled.div`
   width: 30%;
 `
 
-const DetailContent = styled.div`
+const DetailContent = styled.div<ChildProps>`
   width: 70%;
+
+  color: ${({ type }) => type === "URL" || type === "Github" ? "blue" : null};
+  cursor: ${({ type }) => type === "URL" || type === "Github" ? "pointer" : null};
 `
 
 export default DescriptionDetail

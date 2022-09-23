@@ -15,9 +15,9 @@ export const projectsList : {[key: string] : ProjectsListProps}  = {
     date: '2021.11 - 2021.12 (4인 팀프로젝트)',
     description: "<p><b>개선하고 실제로 스토어에 출시까지 했다는 점에서 의미가 있습니다. <span style='color: red'>테스트</span> 이제는 마음만 먹으면 모바일 앱도 개발하고 출시할 수 있다는 자신감을 준 프로젝트입니다.</b></p>",
     stack: 'React Native, Recoil, TypeScript',
-    url: 'www.naver.com',
+    url: 'http://www.naver.com',
     function: '로그인, 달력, 차트',
-    github: 'www.naver.com',
+    github: 'http://www.naver.com',
     imageList: [
       'https://velog.velcdn.com/images/jungjaedev/post/967d6ec8-6ff7-4dce-992e-252b27d0f45f/image.webp',
       'https://velog.velcdn.com/images/jungjaedev/post/711c40e3-00e6-4ea8-ab3a-48d4e80c0dba/image.webp',
