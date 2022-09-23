@@ -45,9 +45,9 @@ const ProjectImageSlider = ({currentProject}: ChildProps) => {
         {images}
       </ImageSlider>
       <Buttons>
-        <Button src={require('assets/left-arrow.png')} onClick={preSlide} />
+        <Button src={require('assets/icons/left-arrow.png')} onClick={preSlide} />
         {currentImage + 1}/{imageNum}
-        <Button src={require('assets/right-arrow.png')} onClick={nextSlide} />
+        <Button src={require('assets/icons/right-arrow.png')} onClick={nextSlide} />
       </Buttons>
     </Wrapper>
   )

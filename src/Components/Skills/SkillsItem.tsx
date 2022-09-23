@@ -6,8 +6,13 @@ import TitleText from 'theme/Default/TitleText';
 import { typeProps } from '../../types/common';
 
 const SkillsItem = ({type} : typeProps) => {
-  const skillsImageList = skillsList[type].imageList.map((item, idx)=> {
-    return <Image key={idx} src={item} />
+  const images = skillsList[type].imageList
+  const skillsImageList = images.map((item, idx)=> {
+    return <Image 
+              key={idx} 
+              // src={require(item)} 
+              src={require('assets/etc/s3.png')}
+            />
   })
   return (
     <ItemBox width="20rem" padding="3rem 2rem">

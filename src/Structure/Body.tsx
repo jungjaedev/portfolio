@@ -8,13 +8,13 @@ interface SkillsProps {
   ref?: RefObject<HTMLImageElement>;
 }
 
-const Body = ({ref} : SkillsProps) => {
+const Body = () => {
   
 
   return (
     <Box flexDirection="column">
       <Archiving />
-      <Skills ref={ref} />
+      <Skills />
       <Projects />
     </Box>
   )

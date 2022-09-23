@@ -12,9 +12,9 @@ const Icons = () => {
   }
   return (
     <div>
-      <Image onClick={() => handleClick("Github")} src={require('assets/github.png')}></Image>
-      <Image onClick={() => handleClick("Velog")} src={require('assets/velog.png')}></Image>
-      <Image onClick={() => handleClick("Kakao")} src={require('assets/kakao.png')}></Image>
+      <Image onClick={() => handleClick("Github")} src={require('assets/icons/github.png')}></Image>
+      <Image onClick={() => handleClick("Velog")} src={require('assets/icons/velog.png')}></Image>
+      <Image onClick={() => handleClick("Kakao")} src={require('assets/icons/kakao.png')}></Image>
     </div>
   )
 }
