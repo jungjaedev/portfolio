@@ -12,6 +12,9 @@ interface BoxProps {
   alignItems?: string;
   backgroundColor?: string;
   padding?: string;
+  position?: 'static' | 'relative' | 'absolute' | 'sticky' | 'fixed';
+  top?: string;
+  boxShadow?: string;
   ref?: RefObject<HTMLImageElement>;
 }
 
@@ -26,6 +29,9 @@ const Box = ({
   alignItems,
   backgroundColor,
   padding,
+  position,
+  top,
+  boxShadow,
   ref,
 } : BoxProps) => {
   return (
@@ -40,7 +46,10 @@ const Box = ({
       margin,
       alignItems,
       backgroundColor,
-      padding
+      padding,
+      position,
+      top,
+      boxShadow,
     }}>
       { children }
     </Wrapper>
