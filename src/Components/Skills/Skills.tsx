@@ -7,7 +7,7 @@ import SkillsItem from './SkillsItem';
 const Skills = () => {
   return (
     <BodyBox backgroundColor="#81B622">
-      <TitleText color="white">Skills</TitleText>
+      <TitleText color="white">SKILLS</TitleText>
       <List>
         <SkillsItem type="Frontend" />
         <SkillsItem type="Backend" />
@@ -19,9 +19,9 @@ const Skills = () => {
 
 const List = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 1200px;
-  display: flex;
+  width: 90vw;
 `
 
 export default Skills

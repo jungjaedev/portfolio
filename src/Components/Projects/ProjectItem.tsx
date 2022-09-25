@@ -49,7 +49,6 @@ const Item = styled.div`
   padding: 1rem 2rem;
   border-radius: ${({ theme }) => theme.borderRadius};
   background-color: white;
-  margin: 0 3rem;
   font-size: 1.3rem;
   font-weight: 500;
   height: 100%;

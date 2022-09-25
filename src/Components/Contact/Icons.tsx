@@ -19,7 +19,6 @@ const Icons = () => {
   )
 }
 
-// https://open.kakao.com/o/gHsXFgDe
 
 const Image = styled.img`
   width: 3rem;

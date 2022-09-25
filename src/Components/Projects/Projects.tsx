@@ -7,7 +7,7 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
     <BodyBox backgroundColor="#5D95BB">
-      <TitleText color="white">Projects</TitleText>
+      <TitleText color="white">PROJECTS</TitleText>
       <List>
         <ProjectItem type="Emotipop" />
       </List>
@@ -21,6 +21,7 @@ const List = styled.div`
   justify-content: center;
   max-width: 1200px;
   display: flex;
+  margin: 0 auto;
 `
 
 export default Projects

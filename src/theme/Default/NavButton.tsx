@@ -34,7 +34,7 @@ const Wrapper = styled.div`
   font-size: 1.2rem;
   font-weight: 800;
   color: ${({ theme }) => theme.darkgrey};
-  text-align: right;
+  text-align: center;
 
   &:hover {
     cursor: pointer;

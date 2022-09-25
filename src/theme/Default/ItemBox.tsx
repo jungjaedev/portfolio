@@ -28,7 +28,6 @@ const Wrapper = styled.div`
   padding: 1rem 2rem;
   border-radius: ${({ theme }) => theme.borderRadius};
   background-color: white;
-  margin: 0 3rem;
   cursor: pointer;
   font-size: 1.3rem;
   font-weight: 500;

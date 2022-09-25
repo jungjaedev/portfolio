@@ -19,8 +19,9 @@ const Archiving = () => {
 
 const List = styled.div`
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 90vw;
 `
 
 

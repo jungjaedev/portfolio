@@ -15,6 +15,7 @@ interface BoxProps {
   position?: 'static' | 'relative' | 'absolute' | 'sticky' | 'fixed';
   top?: string;
   boxShadow?: string;
+  zIndex?: string;
   ref?: RefObject<HTMLImageElement>;
 }
 
@@ -32,6 +33,7 @@ const Box = ({
   position,
   top,
   boxShadow,
+  zIndex,
   ref,
 } : BoxProps) => {
   return (
@@ -50,6 +52,7 @@ const Box = ({
       position,
       top,
       boxShadow,
+      zIndex
     }}>
       { children }
     </Wrapper>
