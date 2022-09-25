@@ -3,12 +3,12 @@ import Box from 'theme/Default/Box';
 import NavButton from 'theme/Default/NavButton';
 
 const Logo = () => {
-  const handleLogoButtonClick = () => {
-    console.log('logo')
+  const handleClickToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
   return (
     <Box>
-      <NavButton textAlign="left" onClick={handleLogoButtonClick} fontWeight="700" fontSize="2.5rem">
+      <NavButton textAlign="left" onClick={handleClickToTop} fontWeight="700" fontSize="2.5rem">
         Jaewon Jung
       </NavButton>
     </Box>

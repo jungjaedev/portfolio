@@ -33,7 +33,8 @@ const DetailTitle = styled.div`
 
 const DetailContent = styled.div<ChildProps>`
   width: 70%;
-
+  word-break: break-all;
+  
   color: ${({ type }) => type === "URL" || type === "Github" ? "blue" : null};
   cursor: ${({ type }) => type === "URL" || type === "Github" ? "pointer" : null};
 `
