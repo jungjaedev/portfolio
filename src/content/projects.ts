@@ -19,12 +19,10 @@ export const projectsList : {[key: string] : ProjectsListProps}  = {
     function: '로그인, 일기 작성, 달력 페이지, 차트 페이지',
     github: 'https://github.com/codestates/EmotiPop',
     imageList: [
-      'https://velog.velcdn.com/images/jungjaedev/post/967d6ec8-6ff7-4dce-992e-252b27d0f45f/image.webp',
-      'https://velog.velcdn.com/images/jungjaedev/post/711c40e3-00e6-4ea8-ab3a-48d4e80c0dba/image.webp',
-      'https://velog.velcdn.com/images/jungjaedev/post/e702280c-f777-4a44-b7c3-281c6f0e2cff/image.webp',
-      'https://velog.velcdn.com/images/jungjaedev/post/28b01b3b-d1a2-4715-86c5-da9207c2f8cd/image.webp',
-      'https://velog.velcdn.com/images/jungjaedev/post/0c7d66da-b0bb-4b67-8bcc-e8bf31e03bb3/image.webp',
-      'https://velog.velcdn.com/images/jungjaedev/post/64e8f779-ebdd-45a1-9b13-ce0ab6c1bbe3/image.webp'
+      'https://velog.velcdn.com/images/jungjaedev/post/76d0bc8b-8570-4574-90a4-f29beaaa380b/image.png',
+      'https://velog.velcdn.com/images/jungjaedev/post/3e53c41b-f8d2-46c5-bafb-a208815c7db0/image.png',
+      'https://velog.velcdn.com/images/jungjaedev/post/042e303d-8b5b-48fb-9002-b31b6f8c23a9/image.png',
+      'https://velog.velcdn.com/images/jungjaedev/post/cc1be862-fd2c-4c0c-9fe0-3236e459bc8f/image.png'
     ]
   },
   TodayNews : {

@@ -54,15 +54,13 @@ const ProjectImageSlider = ({currentProject}: ChildProps) => {
 }
 
 const Wrapper = styled.div`
-  width: 30rem;
+  width: 50rem;
   overflow: hidden;
-  padding: 0 2.5rem;
   margin: 2.5rem 3rem 0;
 `
 
 const Image = styled.img`
-  width: 20rem;
-  margin: 0 2.5rem;
+  width: 40rem;
 `
 
 const ImageSlider = styled.div`

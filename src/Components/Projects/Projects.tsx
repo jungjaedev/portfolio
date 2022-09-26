@@ -25,4 +25,4 @@ const List = styled.div`
   margin: 0 auto;
 `
 
-export default Projects
+export default Projects;
