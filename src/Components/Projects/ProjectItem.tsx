@@ -47,6 +47,7 @@ const Item = styled.div`
   max-width: 1200px;
   width: 90vw;
   padding: 1rem 2rem;
+  margin: 1rem auto;
   border-radius: ${({ theme }) => theme.borderRadius};
   background-color: white;
   font-size: 1.3rem;

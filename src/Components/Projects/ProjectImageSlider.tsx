@@ -10,7 +10,7 @@ interface ChildProps {
 const ProjectImageSlider = ({currentProject}: ChildProps) => {
   const [currentImage, setCurrentImage] = useState(0);
   const slideRef = useRef<any>(null);
-  const imageNum = projectsList["Emotipop"].imageList.length;
+  const imageNum = projectsList[currentProject.title].imageList.length;
   
   const nextSlide = () => {
     if (currentImage >= imageNum - 1) {
@@ -35,7 +35,7 @@ const ProjectImageSlider = ({currentProject}: ChildProps) => {
     }
   },[currentImage])
 
-  const images = projectsList["Emotipop"].imageList.map((item, idx) => {
+  const images = projectsList[currentProject.title].imageList.map((item, idx) => {
     return <Image src={item} key={idx} />
   })
   

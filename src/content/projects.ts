@@ -26,5 +26,20 @@ export const projectsList : {[key: string] : ProjectsListProps}  = {
       'https://velog.velcdn.com/images/jungjaedev/post/0c7d66da-b0bb-4b67-8bcc-e8bf31e03bb3/image.webp',
       'https://velog.velcdn.com/images/jungjaedev/post/64e8f779-ebdd-45a1-9b13-ce0ab6c1bbe3/image.webp'
     ]
-  }
+  },
+  TodayNews : {
+    title: "TodayNews",
+    date: '2022.09 (개인 프로젝트)',
+    description: "<p><strong>OPEN API를 활용한 기사 검색 서비스</strong>입니다. </p> <br /> <p>React Native로 개발하여 실제 <span style='color: red'>스토어에 출시</span>까지 했다는 점에서 의미가 있습니다. 팀원들과 소통, 협업하여 마음만 먹으면 모바일 앱도 개발하고 출시할 수 있다는 자신감을 준 프로젝트입니다.</p>",
+    stack: 'React, Redux, Typescript, styled-components',
+    url: 'https://www.notion.so/News-API-eeefa0495aec4209880b89e204ed86a8',
+    function: '뉴스 검색 및 정렬, 즐겨찾기, 본문 수정 기능, 페이지네이션(무한스크롤)',
+    github: 'https://github.com/codestates/EmotiPop',
+    imageList: [
+      'https://velog.velcdn.com/images/jungjaedev/post/24bd6669-4609-4984-a7e2-bb1a4bda6fea/image.png',
+      'https://velog.velcdn.com/images/jungjaedev/post/71bf82ba-a7fd-457b-b77d-797fba431786/image.png',
+      'https://velog.velcdn.com/images/jungjaedev/post/2be8f8d9-c6e8-41bc-8b4c-d5bea5a735d0/image.png',
+      'https://velog.velcdn.com/images/jungjaedev/post/f23918be-00ef-48a5-8091-2f937354c4a7/image.png'
+    ]
+  },
 }

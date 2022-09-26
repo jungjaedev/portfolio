@@ -9,6 +9,7 @@ const Projects = () => {
     <BodyBox backgroundColor="#5D95BB">
       <TitleText color="white">PROJECTS</TitleText>
       <List>
+        <ProjectItem type="TodayNews" />
         <ProjectItem type="Emotipop" />
       </List>
     </BodyBox>
