@@ -1,9 +1,12 @@
-import React from 'react'
+import styled from 'styled-components';
 
 const Copyright = () => {
   return (
-    <div>© 2022. Jung Jae Won. All rights reserved.</div>
+    <Footer>© 2022. Jung Jae Won. All rights reserved.</Footer>
   )
 }
 
+const Footer = styled.div`
+  font-size: 1rem;
+`
 export default Copyright
