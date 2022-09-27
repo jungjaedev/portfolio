@@ -6,9 +6,10 @@ import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <BodyBox backgroundColor="#5D95BB">
+    <BodyBox id="projects" backgroundColor="#5D95BB">
       <TitleText color="white">PROJECTS</TitleText>
       <List>
+        <ProjectItem type="Portfolio" />
         <ProjectItem type="TodayNews" />
         <ProjectItem type="Emotipop" />
       </List>

@@ -54,18 +54,23 @@ const ProjectImageSlider = ({currentProject}: ChildProps) => {
 }
 
 const Wrapper = styled.div`
-  width: 50rem;
+  width: 50%;
   overflow: hidden;
-  margin: 2.5rem 3rem 0;
+  margin: 2.5rem 2rem 0;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const Image = styled.img`
-  width: 40rem;
+  width: 100%;
 `
 
 const ImageSlider = styled.div`
   margin: 0 auto;
   display: flex;
+  width: 100%;
 `
 
 const Buttons = styled.div`

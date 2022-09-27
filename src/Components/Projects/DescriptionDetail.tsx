@@ -25,10 +25,12 @@ const DescriptionDetail = ({type, content} : ChildProps) => {
 const Wrapper = styled.div`
   display: flex;
   margin: 1rem 0;
+  font-weight: 400;
 `
 
 const DetailTitle = styled.div`
   width: 30%;
+  font-weight: 800;
 `
 
 const DetailContent = styled.div<ChildProps>`

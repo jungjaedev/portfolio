@@ -14,7 +14,8 @@ const ProjcetDescriptions = ({currentProject}: ChildProps) => {
       <Line />
       <DescriptionDetail type="주요 기능" content={currentProject.function} />
       <DescriptionDetail type="Stacks" content={currentProject.stack} />
-      <DescriptionDetail type="Github" content={currentProject.github} />
+      <DescriptionDetail type="Deploy" content={currentProject.deployment} />
+      {currentProject.github && <DescriptionDetail type="Github" content={currentProject.github} />}
       <DescriptionDetail type="URL" content={currentProject.url} />
     </Wrapper>
   )
@@ -24,7 +25,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 2.5rem;
-  width: 30rem;
+  width: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const Description = styled.div`

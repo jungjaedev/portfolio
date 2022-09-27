@@ -23,7 +23,17 @@ const ProjectItem = ({type}: typeProps) => {
 
 const ProjcetContent = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.1rem;
+    word-break: break-word;
+    overflow: inherit;
+    width: 100%;
+  }
 `
 
 const ProjectHeader = styled.div`

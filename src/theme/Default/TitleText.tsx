@@ -6,12 +6,13 @@ interface TitleTextProps {
   children: ReactNode;
   color?: string;
   fontSize?:string;
+  textAlign?:  'left' | 'right' | 'center';
   marginBottom?: string;
 }
 
-const TitleText = ({children, color, fontSize, marginBottom} : TitleTextProps) => {
+const TitleText = ({children, color, fontSize, textAlign, marginBottom} : TitleTextProps) => {
   return (
-    <Wrapper style={{color, fontSize}}>
+    <Wrapper style={{color, fontSize, textAlign}}>
       {children}
       <Line style={{marginBottom}} />
     </Wrapper>

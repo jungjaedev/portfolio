@@ -5,7 +5,7 @@ import Copyright from './Copyright';
 
 const Contact = () => {
   return (
-    <Box height="8rem" flexDirection='column' justifyContent="center" alignItems="center">
+    <Box id="contact" height="8rem" flexDirection='column' justifyContent="center" alignItems="center">
       <Icons />
       <Copyright />
     </Box>

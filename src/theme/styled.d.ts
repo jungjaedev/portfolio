@@ -1,4 +1,5 @@
 import "styled-components";
+import 'react-scroll';
 
 declare module "styled-components" {
   export interface DefaultTheme {
@@ -16,6 +17,8 @@ declare module "styled-components" {
     borderRadius: string,
   }
 }
+
+declare module 'react-scroll';
 
 
 

@@ -11,8 +11,8 @@ const SkillsItem = ({type} : typeProps) => {
     return <Image key={idx} src={item} />
   })
   return (
-    <ItemBox width="20rem" padding="3rem 2rem">
-      <TitleText marginBottom="1rem" fontSize='2rem' color="#E50D06">{type}</TitleText>
+    <ItemBox margin="1rem" width="20rem" padding="3rem 2rem">
+      <TitleText textAlign="center" marginBottom="1rem" fontSize='2rem' color="#E50D06">{type}</TitleText>
       {skillsImageList}
     </ItemBox>
   )
@@ -21,6 +21,9 @@ const SkillsItem = ({type} : typeProps) => {
 const Image = styled.img`
   max-width: 100%;
   max-height: 8rem;
+  @media screen and (max-width: 768px) {
+    height: 100%;
+  }
 `
 
 export default SkillsItem

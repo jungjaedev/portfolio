@@ -4,10 +4,12 @@ import Box from './Box';
 interface BodyBoxProps { 
   children: ReactNode;
   backgroundColor?: string;
+  width?: string;
+  id?:string;
   ref?: RefObject<HTMLImageElement>;
 }
 
-const BodyBox = ({children, backgroundColor, ref} : BodyBoxProps) => {
+const BodyBox = ({children, backgroundColor, ref, id, width} : BodyBoxProps) => {
   return (
     <Box     
     ref={ref}
@@ -16,6 +18,8 @@ const BodyBox = ({children, backgroundColor, ref} : BodyBoxProps) => {
     justifyContent='center' 
     alignItems="center"
     backgroundColor={backgroundColor}
+    width={width}
+    id={id}
     >{children}</Box>
   )
 }

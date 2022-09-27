@@ -16,6 +16,7 @@ interface BoxProps {
   top?: string;
   boxShadow?: string;
   zIndex?: string;
+  id?: string;
   ref?: RefObject<HTMLImageElement>;
 }
 
@@ -34,10 +35,12 @@ const Box = ({
   top,
   boxShadow,
   zIndex,
+  id,
   ref,
 } : BoxProps) => {
   return (
     <Wrapper 
+    id={id}
     ref={ref}
     style={{
       width, 

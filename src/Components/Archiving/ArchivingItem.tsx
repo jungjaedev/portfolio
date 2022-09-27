@@ -14,7 +14,7 @@ const ArchivingItem = ({type} : typeProps) => {
   }
 
   return (
-    <Wrapper onClick={handleClick}>
+    <Wrapper margin='1rem' onClick={handleClick}>
       <Subject>
         <SubjectImage src={archivingList[type].image} />
         <SubjectText>{archivingList[type].title}</SubjectText>
