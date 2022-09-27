@@ -47,6 +47,10 @@ const Title = styled.div`
   font-size: 2.7rem;
   font-weight: 900;
   margin: 1rem 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.9rem;
+  }
 `
 
 const Date = styled.div`

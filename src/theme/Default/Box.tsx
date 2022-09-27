@@ -66,6 +66,9 @@ const Wrapper = styled.div`
   display: flex;
   width: 100%;
   height: 'auto';
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `
 
 export default Box;

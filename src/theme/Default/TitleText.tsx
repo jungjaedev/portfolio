@@ -22,6 +22,10 @@ const TitleText = ({children, color, fontSize, textAlign, marginBottom} : TitleT
 const Wrapper = styled.div`
   font-size: 3.5rem;
   font-weight: 900;
+  
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `
 
 const Line = styled.div`

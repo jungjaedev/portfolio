@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import Box from 'theme/Default/Box';
 import NavButton from 'theme/Default/NavButton';
 
@@ -9,12 +10,16 @@ const Logo = () => {
   return (
     <Box>
       <NavButton textAlign="left" onClick={handleClickToTop} fontWeight="700" fontSize="2.5rem">
-        Jaewon Jung
+        <TitleText>Jaewon Jung</TitleText>
       </NavButton>
     </Box>
   )
 }
 
-
+const TitleText = styled.div`
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
+`
 
 export default Logo
