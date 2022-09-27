@@ -32,14 +32,25 @@ const Wrapper = styled(ItemBox)`
 
 const Subject = styled.div`
   display: flex;
+  align-items:center;
   margin: 1.5rem 0;
   height: 3rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 1.5vw 0;
+  }
 `
 
 const SubjectImage = styled.img`
   width: 3rem;
   margin-right: 1rem;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    width: 7vw;
+    height: 7vw;
+    margin-right: 2vw;
+  }
 `
 
 const SubjectText = styled.div`
@@ -49,6 +60,10 @@ const SubjectText = styled.div`
   height: 100%;
   vertical-align: bottom;
   padding-top: 3px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `
 
 const Link = styled.span`
@@ -56,6 +71,10 @@ const Link = styled.span`
 
   ${Wrapper}:hover & {
     border-bottom: 1px solid ${({ theme }) => theme.blue};
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
   }
 `
 
@@ -65,6 +84,11 @@ const Descriptions = styled.div`
 
 const Description = styled.div`
   margin: 1rem 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+    margin: 2vw 0;
+  }
 `
 
 export default ArchivingItem

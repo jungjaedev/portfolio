@@ -24,7 +24,7 @@ const ProjcetDescriptions = ({currentProject}: ChildProps) => {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 2.5rem;
+  margin-top: 2vw;
   width: 50%;
 
   @media screen and (max-width: 768px) {
@@ -33,6 +33,7 @@ const Wrapper = styled.div`
 `
 
 const Description = styled.div`
+  line-height: 1.3rem;
 `
 
 const Line = styled.div`

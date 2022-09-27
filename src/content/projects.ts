@@ -30,7 +30,7 @@ export const projectsList : {[key: string] : ProjectsListProps}  = {
   TodayNews : {
     title: "TodayNews",
     date: '2022.09 (개인 프로젝트)',
-    description: "<p><strong>OPEN API를 활용한 기사 검색 서비스</strong>입니다. </p> <br /> <p>React Native로 개발하여 실제 <span style='color: red'>스토어에 출시</span>까지 했다는 점에서 의미가 있습니다. 팀원들과 소통, 협업하여 마음만 먹으면 모바일 앱도 개발하고 출시할 수 있다는 자신감을 준 프로젝트입니다.</p>",
+    description: "<p><strong>OPEN API를 활용한 기사 검색 서비스</strong>입니다. News API를 통해 데이터를 받아옵니다. </p> <br /> <p>처음으로 Typescript와 React로 만들었던 프로젝트입니다. 프론트만을 이용하여 데이터는 로컬스토리지에 저장하여 만들었습니다.</>",
     stack: 'React, Redux, Typescript, styled-components',
     deployment: 'Vercel',
     url: 'https://enormous-fossa-e44.notion.site/News-API-eeefa0495aec4209880b89e204ed86a8',
@@ -45,10 +45,10 @@ export const projectsList : {[key: string] : ProjectsListProps}  = {
   Portfolio : {
     title: "Portfolio",
     date: '2022.09 (개인 프로젝트)',
-    description: "<p>부트캠프에서 팀프로젝트로 진행한 <strong>모바일 다이어리 어플리케이션</strong>입니다. 유미의 세포들에서 아이디어를 받아 개발한 프로젝트 입니다.</p> <br /> <p>React Native로 개발하여 실제 <span style='color: red'>스토어에 출시</span>까지 했다는 점에서 의미가 있습니다. 팀원들과 소통, 협업하여 마음만 먹으면 모바일 앱도 개발하고 출시할 수 있다는 자신감을 준 프로젝트입니다.</p>",
+    description: "<p><strong>포트폴리오 용도로 제작한 웹사이트</strong>입니다. 지금 보고 있는 바로 이 웹사이트에 해당합니다.</p><p>Typescript에 익숙해지기 위한 프로젝트입니다.</p>",
     stack: 'React, Typescript, styled-components',
     deployment: 'Github pages',
-    url: 'https://play.google.com/store/apps/details?id=com.dropTheCode.EmotiPop',
+    url: 'https://jungjaedev.github.io/',
     function: 'GitHub 및 블로그 링크, 기술 스택, 프로젝트 경험',
     github: 'https://github.com/jungjaedev/portfolio',
     imageList: [

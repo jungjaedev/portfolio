@@ -34,6 +34,11 @@ const Wrapper = styled.div`
   position: fixed;
   right: 3rem;
   bottom: 3rem;
+
+  @media screen and (max-width: 768px) {
+    right: 1rem;
+    bottom: 1rem;
+  }
   
   &:hover {
     cursor: pointer;

@@ -41,6 +41,10 @@ const ProjectHeader = styled.div`
   text-align: center;
   flex-direction: column;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 `
 
 const Title = styled.div`
@@ -55,6 +59,10 @@ const Title = styled.div`
 
 const Date = styled.div`
   color: ${({ theme }) => theme.grey};
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `
 
 const Item = styled.div`

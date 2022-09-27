@@ -29,12 +29,12 @@ const Wrapper = styled.div`
 `
 
 const DetailTitle = styled.div`
-  width: 30%;
+  width: 33%;
   font-weight: 800;
 `
 
 const DetailContent = styled.div<ChildProps>`
-  width: 70%;
+  width: 67%;
   word-break: break-all;
   
   color: ${({ type }) => type === "URL" || type === "Github" ? "blue" : null};

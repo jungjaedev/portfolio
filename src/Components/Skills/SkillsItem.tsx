@@ -21,9 +21,6 @@ const SkillsItem = ({type} : typeProps) => {
 const Image = styled.img`
   max-width: 100%;
   max-height: 8rem;
-  @media screen and (max-width: 768px) {
-    height: 100%;
-  }
 `
 
 export default SkillsItem

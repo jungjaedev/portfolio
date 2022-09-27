@@ -31,6 +31,10 @@ const Wrapper = styled.div`
 const Line = styled.div`
   border: 1px solid #d3d3d3;
   margin: 0.5rem 0 4rem;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 `
 
 export default TitleText
